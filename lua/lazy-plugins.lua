@@ -40,9 +40,11 @@ require('lazy').setup({
 
   require 'kickstart/plugins/cmp',
 
-  require 'kickstart/plugins/tokyonight',
+  -- require 'kickstart/plugins/tokyonight',
+  require 'custom/plugins/onedark',
 
-  require 'kickstart/plugins/todo-comments',
+  -- require 'kickstart/plugins/todo-comments',
+  -- TODO rimosso perché non funzionava bene (non smette di evidenziare fino a che non incontra una riga vuota)
 
   require 'kickstart/plugins/mini',
 
