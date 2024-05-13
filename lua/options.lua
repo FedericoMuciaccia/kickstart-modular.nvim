@@ -3,6 +3,8 @@
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
 
+-- TODO vedere vim.opt. VS vim.o. VS vim.wo.
+
 -- Make line numbers default
 vim.opt.number = true
 -- You can also add relative line numbers, to help with jumping.
@@ -42,6 +44,7 @@ vim.opt.updatetime = 250
 -- Decrease mapped sequence wait time
 -- Displays which-key popup sooner
 vim.opt.timeoutlen = 300
+-- TODO valutare se rimuoverlo
 
 -- Configure how new splits should be opened
 vim.opt.splitright = true
